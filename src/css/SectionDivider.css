@@ -1,0 +1,14 @@
+.section-divider {
+    width: 100px;
+    height: 8px;
+    background-color: var(--soft-pink);
+    border: 1px solid var(--middle-blue);
+    border-radius: 4px;
+}
+
+.section-divider-no-outline {
+    width: 100px;
+    height: 8px;
+    background-color: var(--soft-pink);
+    border-radius: 4px;
+}

@@ -1,0 +1,26 @@
+.SelectionConfirmation {
+    height: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.SelectionConfirmation__heading {
+    font-family: Lobster, cursive;
+    font-size: 2rem;
+    line-height: 1.3;
+    margin:0;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.SelectionConfirmation__text {
+    padding-top: 2rem;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.SelectionConfirmation__confirm {
+    padding-top: 1.5rem;
+    text-align: right;
+}

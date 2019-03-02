@@ -1,0 +1,68 @@
+.CartGallery {    
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+    margin: 0 -0.5rem;
+}
+
+@media(min-width: 768px) {
+    .CartGallery {
+        padding-bottom: 1.5rem;
+    }
+}
+
+.CartGalleryItem__Wrapper {    
+    border-radius: 0.5rem;
+    background-image: url('../images/desaturated_fruits.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 5rem;
+    width: 4.75rem;
+    padding: 0.5rem;
+}
+@media(min-width: 360px) {
+    .CartGalleryItem__Wrapper {
+        width: 5rem;
+    }    
+}
+
+.CartItem {
+    height: 3.75rem;
+    width: 3.75rem;
+    position: relative;
+    cursor: pointer;
+}
+
+@media(min-width: 360px) {
+    .CartItem {
+        height: 4rem;
+        width: 4rem;
+        position: relative;
+    }    
+}
+
+.CartItem__image {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--deep-blue);
+    position: absolute;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.CartItem__remove-btn {
+    height: 1.75rem;
+    width: 1.75rem;
+    background-color: var(--soft-pink);
+    border-radius: 50%;
+    border: 1px solid var(--deep-blue);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+}

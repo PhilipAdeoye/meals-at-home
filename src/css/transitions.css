@@ -1,0 +1,27 @@
+
+
+.fade-appear {
+    opacity: 0;
+}
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    transition: opacity 500ms ease-out;
+}
+
+.slide-up-appear {
+    transform: translateY(50px);
+}
+.slide-up-appear.slide-up-appear-active {
+    transform: translateY(0px);
+    transition: transform 350ms var(--ease-out-quintic);
+}
+
+.pop-appear {
+    opacity: 0;
+    transform: translateY(20px);    
+}
+.pop-appear.pop-appear-active {
+    opacity: 1;
+    transform: translateY(0px);    
+    transition: opacity 250ms var(--ease-out-quintic), transform 250ms var(--ease-out-quintic);
+}

@@ -1,0 +1,22 @@
+
+
+.MainContainer {
+    min-height: 100vh;
+    background-image: url(../images/logo_semi_transparent.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+    padding-top: 4rem;
+    background-position: right calc(100% - calc((123/360) * 100vw)) top 4rem;
+}
+
+@media screen and (min-width:480px) {
+    .MainContainer {
+        background-size: 535px;
+        background-position: left -132px bottom -75px;
+    }
+}
+
+.MainContainer__container {
+    height: 100%;
+    overflow: auto;
+}

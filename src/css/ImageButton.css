@@ -1,0 +1,25 @@
+.ImageButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem 1.5rem;
+    width: 100%;
+    background-color: var(--white-pink);
+    border: 1px solid var(--shadow-blue-opaque);
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px 0 var(--shadow-blue-transparent);
+
+}
+
+.ImageButton__label {
+    font-size: 1.5rem;
+    font-weight: 600;   
+    color: var(--middle-blue);
+    text-align: left;
+    padding-right: 1.5rem;
+}
+
+.ImageButton__image {
+    width: 4rem;
+}

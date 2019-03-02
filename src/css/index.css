@@ -1,0 +1,57 @@
+html { font-size: 100%; }
+
+
+:root {
+
+    /* Colors */
+
+    /* Blues */
+    --middle-blue: rgba(29, 102, 150, 1);
+    --deep-blue: rgba(28, 73, 105, 1);
+    --dirty-blue: rgba(28, 73, 105, 0.8);
+    --shadow-blue-opaque: rgba(58, 133, 182, 1);
+    --shadow-blue-transparent: rgba(58, 133, 182, 0.24);
+    --light-desaturated-blue: rgba(204, 235, 255, 1);
+    --dark-desaturated-blue: rgba(109, 152, 181, 1);
+
+    /* Pinks */
+    --soft-pink: rgba(255, 198, 197, 1);
+    --white-pink: rgba(255, 235, 235, 1);
+    --soft-pink-transparent-shadow: rgba(255, 198, 197, 0.8);
+    --soft-pink-very-transparent-shadow: rgba(255, 198, 197, 0.24);
+
+    --warm-white: rgb(252, 252, 250);    
+
+    --cheesy-orange: rgba(251, 211, 169, 1);    
+
+    --disabled-grey: #ededed;
+
+    /* Z-indexes */
+    --modal-z-index: 1000000;
+    --appbar-z-index: 100000;
+    --fixed-top-sheet-z-index: 10000;
+
+    /* transitions */
+    --ease-out-quintic: cubic-bezier(0.23, 1, 0.320, 1);
+    --ease-in-quintic: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    --ease-in-exponential: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+
+    /* patterns */
+    --big-blue-dots: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAMElEQVQYlWN4/OXXf2IwA+0V/vnz5/+fP3/wK2RgYGCAKURXzIDNNIIKibaavsEDAA4HewGKI48SAAAAAElFTkSuQmCC);
+    --small-blue-dots: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGElEQVQYlWNgoCl4/OXXf+oqHESAtp4DAOCcD0FnrYGRAAAAAElFTkSuQmCC);
+    --pink-dots: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAIElEQVQYlWP4f+zof2IwAx0U/v9PhEJkQB0TB9jXODAAKC1j03LYSdgAAAAASUVORK5CYII=);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins,-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.6;
+    color: var(--middle-blue);
+
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.75), white), var(--pink-dots);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}

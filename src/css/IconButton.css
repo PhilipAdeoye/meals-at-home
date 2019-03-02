@@ -1,0 +1,17 @@
+.icon-btn {
+    padding: 0;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 0;
+    background-color: var(--deep-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--soft-pink);
+}
+
+.icon-btn:disabled {
+    background-color: var(--disabled-grey);
+    cursor: not-allowed;
+}

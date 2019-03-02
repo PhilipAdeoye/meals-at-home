@@ -1,0 +1,14 @@
+.MenuDate {
+    text-align: center;
+    border-bottom: 1px solid var(--soft-pink);
+}
+
+.MenuDate__display {
+    font-weight: 500;    
+}
+
+@media(max-width: 359px) {
+    .MenuDate__display {
+        font-size: 0.875rem;    
+    }
+}

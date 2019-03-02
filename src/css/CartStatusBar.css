@@ -1,0 +1,68 @@
+.CartStatusBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0 1rem 0;
+}
+
+@media(min-width: 768px) {
+    .CartStatusBar {
+        padding-top: 2rem;
+    }
+}
+
+.CartStatusBar--full-space-between {
+    justify-content: space-between;
+}
+.CartStatusBar--full-center {
+    justify-content: center;
+}
+
+.CartStatusBar__meal-time-label {
+    font-family: Lobster, cursive;
+    font-size: 1.75rem;
+    padding-right: 1rem;
+    line-height: 1;
+}
+
+.CartProgressBar {
+    background-color: var(--warm-white);
+    position: relative;
+    border-radius: 1rem;
+    border: 1px solid var(--deep-blue);
+    flex-grow: 1;
+    height: 2rem;
+    max-width: 14rem;
+}
+
+.CartProgressBar__text-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CartProgressBar__text {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--deep-blue);
+}
+
+.CartProgressBar__progress {
+    background-image: var(--big-blue-dots);
+    border-right: 1px solid var(--deep-blue);
+    height: 100%;
+    border-radius: 1rem;
+    transition: width 250ms;
+    transition-timing-function: var(--ease-out-quintic);
+}
+
+.CartProgressBar__progress--no-borders {
+    border: 0;
+}

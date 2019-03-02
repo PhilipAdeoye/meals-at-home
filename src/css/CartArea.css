@@ -1,0 +1,10 @@
+.CartArea {
+    margin: 0 auto;
+}
+
+@media(min-width: 768px) {
+    .CartArea {
+        max-width: 544px;
+    }
+}
+

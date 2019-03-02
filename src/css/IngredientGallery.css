@@ -1,0 +1,44 @@
+.IngredientGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.IngredientGalleryItem__Wrapper {
+    width: 47.5%;
+    height: 8rem;
+    padding-bottom: 1rem;
+}
+
+.IngredientGalleryItem {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 2px 0 var(--soft-pink-transparent-shadow);
+    overflow: hidden;
+}
+
+.IngredientGalleryItem__img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+
+.IngredientGalleryItem__label {
+    border-radius: 0 0 0.5rem 0.5rem;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.75), rgba(255,255,255,0));
+    
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--warm-white);
+    
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+    margin: 0;
+    padding: 0.5rem 0.75rem;
+}
+

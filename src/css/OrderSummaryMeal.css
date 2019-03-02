@@ -1,0 +1,24 @@
+.OrderSummaryMeal {
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+
+.OrderSummaryMeal__img {
+    border-radius: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 var(--soft-pink-transparent-shadow);
+}
+
+.OrderSummaryMeal__details {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.OrderSummaryMeal__details__name {
+    font-weight: 500;
+}

@@ -1,0 +1,19 @@
+.btn {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    height: 2rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid var(--deep-blue);
+    color: var(--deep-blue);
+}
+
+.btn-default {
+    background-color: var(--soft-pink);
+}
+
+.btn-primary {
+    background-color: var(--cheesy-orange);
+}

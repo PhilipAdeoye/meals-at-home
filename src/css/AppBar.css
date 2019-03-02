@@ -1,0 +1,18 @@
+.Appbar-header {
+    background: var(--warm-white);   
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    border-radius: 0 0 1rem 1rem;
+    border-bottom: 1px solid var(--soft-pink);
+    box-shadow: 0 0 4px 0 var(--soft-pink-very-transparent-shadow), 0 0 4px 4px rgba(255, 198, 197, 0.12);
+    z-index: var(--appbar-z-index);
+}
+
+.Appbar-header__content {
+    margin: 0 auto;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
